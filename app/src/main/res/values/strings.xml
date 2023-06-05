@@ -1,3 +1,106 @@
 <resources>
     <string name="app_name">ToSwod</string>
+    <string name="ib_foto">foto</string>
+    <string name="ib_text">text</string>
+    <string name="ib_speak">sprechen</string>
+    <string name="ib_pass">pass</string>
+    <string name="click_here_to_take_snap">tv_click_here_to_take_snap</string>
+    <string name="select_language_to_convert">tv_select_language_to_convert</string>
+    <string name="tv_result">result</string>
+
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="black">Black</string>
+    <string name="yellow">Yellow</string>
+    <string name="violet">Violet</string>
+    <string name="todo">ToDo List</string>
+    <string name="firma">Videoüberwachung24</string>
+    <string name="notizbuch">Notizbuch</string>
+    <string name="text_selected_date">Selected Date</string>
+    <string name="privat">Privat</string>
+    <string name="pass">Passwords</string>
+    <string name="eda">Rezepte</string>
+    <string name="offentlich">Offentlich</string>
+    <string name="selection_mode">Selection Mode</string>
+    <string name="none">None</string>
+    <string name="single">Single</string>
+    <string name="multiple">Multiple</string>
+    <string name="range">Range</string>
+    <string name="vertical">Vertical</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="license">Sergej Wodjasow, tel.: 015901982605 </string>
+    <string name="scaner">Video Scaner</string>
+    <string name="text_orientation">Orientation</string>
+    <string name="heute">Сегодня</string>
+    <string name="jahr">- 2021 -</string>
+    <string name="todo_list_fragment">Todo List Fragment</string>
+    <string name="v24_fragment">VideoÜberwachung24 Fragment</string>
+    <string name="notizbuch_fragment">Notizbuch Fragment</string>
+    <string name="video_scaner_fragment">Video Scaner Fragment</string>
+    <string name="passwords_fragment">Passwords Fragment</string>
+    <string name="eda_fragment">EDA fragment</string>
+    <string name="eda_title">Название рецепта</string>
+    <string name="eda_ingradient">ingradients</string>
+    <string name="eda_kategorie">kategorie</string>
+    <string name="eda_zubereitung_zeit">zubereitung_zeit</string>
+    <string name="please_wait">Please wait…</string>
+
+    <string name="crime_title_hint">Enter a title for the event.</string>
+    <string name="crime_title_label">Title</string>
+    <string name="crime_details_label">Details</string>
+    <string name="crime_solved_label">Solved</string>
+    <string name="at_sign">\@</string>
+
+    <!-- Accessibility -->
+
+    <string name="crime_photo_button_description">Take photo of event</string>
+    <string name="crime_photo_no_image_description">Event scene photo (not set) </string>
+    <string name="crime_photo_image_description">Event scene photo (set) </string>
+    <string name="photo_announcement">A new event photo has been set.</string>
+
+    <!-- Dialogs -->
+
+    <string name="dialog_time_title">Select time of event</string>
+    <string name="dialog_date_title">Select event date</string>
+    <string name="dialog_image_title">Image of Event</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="crime_suspect_text">Choose Suspect</string>
+    <string name="crime_report_text">Send Event Report</string>
+
+    <!-- Crime Report -->
+
+    <string name="crime_report">%1$s!The Event was discovered on %2$s at %3$s. %4$s, and %5$s </string>
+    <string name="crime_report_solved">The case is solved</string>
+    <string name="crime_report_unsolved">The case is not solved</string>
+    <string name="crime_report_no_suspect">there is no suspect.</string>
+    <string name="crime_report_suspect">the suspect is %s.</string>
+    <string name="crime_report_subject">Intent Event Report</string>
+    <string name="send_report">Send event report via</string>
+
+    <!-- Toolbar -->
+
+    <string name="new_crime">New Event</string>
+    <string name="delete_crime">Delete Event</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+
+    -<plurals name="subtitle_plural">
+    <item quantity="one">%1$s event</item>
+    <item quantity="other">%1$s eventes</item>
+
+</plurals>
+
+    <!-- Toast messages -->
+
+    <string name="toast_delete_crime">Event has been deleted</string>
+
+    <!-- Empty List view -->
+
+    <string name="empty_view_text_view">There are no events...yet</string>
+    <string name="empty_view_add_button">create new event</string>
+    <string name="crime_report_call">Call Suspect</string>
+    <string name="toast_no_suspect">Please choose a suspect</string>
+
 </resources>

@@ -1,15 +1,21 @@
 package com.example.toswod.domain.entity
 
-import android.app.appsearch.RemoveByDocumentIdRequest
+
 import java.util.*
 
-data class RecipesData (
-    val recipesId: UUID = UUID.randomUUID(),
-    var recipesIngredients: String,
-    var recipesVorbereitung: String){
 
-    val recipesBild
-        get() = "IMG_$recipesId.jpg"
-}
+data class RecipesData (
+    val recipeId: UUID = UUID.randomUUID(),
+    var recipeIngredients: String = "",
+    var recipeVorbereitung: String = "",
+    var recipeTitle: String = "",
+    var recipeDate: Date = Date(),
+    var recipeIsSolved: Boolean = false,
+    var recipeCategory: String = "",
+    var recipePreparationTime: String = ""
+) {
+    val recipeImg
+        get() = "IMG_$recipeId.jpg"
+    }
 
 

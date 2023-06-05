@@ -8,5 +8,8 @@ data class PasswordsData(
     var email: String,
     var password: String,
     var company: String
+) {
+    val passImg
+        get() = "IMG_$passwordId.jpg"
+}
 
-)

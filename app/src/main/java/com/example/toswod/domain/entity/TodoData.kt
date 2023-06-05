@@ -7,7 +7,8 @@ data class TodoData(
     var todoTitle: String = "",
     var dateTodo:  Date = Date(),
     var isSolved: Boolean = false,
-    var todoInfo: String = "") {
+    var todoInfo: String = ""
+) {
 
     val photoFileName
         get() = "IMG_$todoId.jpg"

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/i_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/backgraund"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ib_getPhoto"
+        android:layout_width="148dp"
+        android:layout_height="119dp"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/ib_foto"
+        app:layout_constraintBottom_toTopOf="@+id/ib_getSpeak"
+        app:layout_constraintStart_toStartOf="@+id/ib_getSpeak"
+        app:srcCompat="@drawable/foto_gren" />
+
+    <ImageButton
+        android:id="@+id/ib_getText"
+        android:layout_width="153dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/ib_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/print_green" />
+
+    <ImageButton
+        android:id="@+id/ib_getSpeak"
+        android:layout_width="132dp"
+        android:layout_height="144dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#02FFFFFF"
+        android:contentDescription="@string/ib_speak"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/gf" />
+
+    <ImageButton
+        android:id="@+id/ib_getPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#02FFFFFF"
+        android:contentDescription="@string/ib_pass"
+        app:layout_constraintBottom_toTopOf="@+id/ib_getText"
+        app:layout_constraintEnd_toStartOf="@+id/ib_getPhoto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/schlos1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
